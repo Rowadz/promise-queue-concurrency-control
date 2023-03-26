@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pqclient": "nodemon ./node-promise-queue-rate-limiting/promiseQueueClient.ts",
-    "retryWithQueue": "nodemon ./node-promise-queue-with-priority-retry/retryWithQueue.record.ts",
-    "server1": "nodemon ./node-promise-queue-rate-limiting/server.ts",
-    "server2": "nodemon ./node-promise-queue-with-priority-retry/server2.ts",
+    "pqclient": "nodemon ./node/p-queue-rate-limiting/promiseQueueClient.ts",
+    "retryWithQueue": "nodemon ./node/p-queue-with-priority-retry/retryWithQueue.record.ts",
+    "server1": "nodemon ./node/p-queue-rate-limiting/server.ts",
+    "server2": "nodemon ./node/p-queue-with-priority-retry/server2.ts",
     "servers": "concurrently \"npm run server1\" \"npm run server2\""
   },
   "keywords": [],
